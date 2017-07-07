@@ -1,0 +1,13 @@
+{
+  "name": "web",
+  "description": "Web server role.",
+   "json_class": "Chef::Role",
+   "override_attributes": {
+   },
+   "chef_type": "role",
+   "run_list": ["recipe[htop::default]",
+                "recipe[learn_chef_apache2::default]"
+   ],
+   "env_run_lists": {
+   }
+}

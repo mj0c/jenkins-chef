@@ -1,0 +1,12 @@
+DEPENDENCIES
+  htop
+
+GRAPH
+  compat_resource (12.19.0)
+  htop (2.0.0)
+    yum-repoforge (>= 0.0.0)
+  yum-epel (2.1.2)
+    compat_resource (>= 12.16.3)
+  yum-repoforge (2.0.1)
+    compat_resource (>= 12.16.3)
+    yum-epel (>= 0.0.0)
